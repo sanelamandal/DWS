@@ -1,0 +1,93 @@
+body {
+  margin:0;
+  padding:0;
+  background-image:url("log.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.main {
+  margin: 20%;
+  padding: auto;
+  text-align: center;
+  color:gray;
+
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+  text-transform: none;
+}
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  color: white;
+}
+
+.AllNotes {
+  margin: 4%;
+  padding: auto;
+  text-align: center;
+  color: white;
+  overflow-x:auto;
+}
+
+
+td {
+  text-align: center;
+  vertical-align: bottom;
+  height: 20px;
+}
+
+th {
+  background-color: white;
+  color: orange;
+  height: 20px;
+  text-align: center;
+}
+
+table {
+  background-color: white;
+  width: 100%;
+  color: gray;
+}
+
+.NewNote {
+  margin: 10%;
+  padding: auto;
+  text-align: center;
+  color: white;
+  overflow-x:auto;
+}
+
+.b {
+  padding: 10%;
+  margin: 2%;
+}
+
+.n {
+  margin: 2%;
+  width: 80%;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.btn {
+  margin: 1%;
+}
